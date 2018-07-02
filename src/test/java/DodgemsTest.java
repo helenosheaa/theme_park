@@ -10,7 +10,7 @@ public class DodgemsTest {
 
     @Before
     public void before(){
-        dodgems = new Dodgems("Doi Dodgems");
+        dodgems = new Dodgems("Doi Dodgems", 10);
         visitor1 = new Visitor(13,140,5.00);
     }
 
