@@ -17,5 +17,9 @@ public class ThemeParkTest {
         assertEquals("CodeClan Wondahs", themePark.getName());
     }
 
+    @Test
+    public void getAllReviewed(){
+        assertEquals(reviews, themePark.getReviews());
+    }
 
 }

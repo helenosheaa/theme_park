@@ -23,4 +23,8 @@ public class ThemePark {
     public ArrayList getStalls(){
         return new ArrayList(stalls);
     }
+
+//    public ArrayList reviews(){
+//        return new ArrayList(reviews);
+//    }
 }
