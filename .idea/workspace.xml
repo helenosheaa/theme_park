@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f661e5-86a4-47a4-8a54-e12c77d9d607" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ISecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ISecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITicketed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITicketed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rollercoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rollercoaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TobaccoStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TobaccoStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TobaccoStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TobaccoStallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dodgems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dodgems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DodgemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DodgemsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,8 +34,14 @@
       <file leaf-file-name="Dodgems.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dodgems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" selection-end-line="6" />
+            <state relative-caret-position="209">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="e#75#76#0" expanded="true" />
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TobaccoStallTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TobaccoStallTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TobaccoStallTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="249">
+              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
@@ -83,6 +85,22 @@
                 <element signature="e#605#606#0" expanded="true" />
                 <element signature="e#726#727#0" expanded="true" />
                 <element signature="e#756#757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DodgemsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DodgemsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -359,8 +377,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Visitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/Attraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dodgems.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DodgemsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RollercoasterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/IceCreamStall.java" />
         <option value="$PROJECT_DIR$/src/test/java/IceCreamStallTest.java" />
@@ -370,9 +386,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Rollercoaster.java" />
         <option value="$PROJECT_DIR$/src/test/java/VisitorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ISecurity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TobaccoStall.java" />
         <option value="$PROJECT_DIR$/src/main/java/ITicketed.java" />
         <option value="$PROJECT_DIR$/src/test/java/TobaccoStallTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TobaccoStall.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DodgemsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dodgems.java" />
       </list>
     </option>
   </component>
@@ -454,9 +472,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TobaccoStallTest.canVisitStall">
+  <component name="RunManager" selected="JUnit.DodgemsTest.canVisitAttraction">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DodgemsTest.canVisitAttraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="themeParkHomework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DodgemsTest" />
+      <option name="METHOD_NAME" value="canVisitAttraction" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="DodgemsTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="themeParkHomework_test" />
@@ -483,23 +518,6 @@
       <option name="MAIN_CLASS_NAME" value="IceCreamStallTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RollercoasterTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="themeParkHomework_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RollercoasterTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -582,19 +600,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RollercoasterTest.hasName" />
       <item itemvalue="JUnit.DodgemsTest.hasName" />
       <item itemvalue="JUnit.TobaccoStallTest" />
       <item itemvalue="JUnit.IceCreamStallTest" />
       <item itemvalue="JUnit.TobaccoStallTest.canVisitStall" />
+      <item itemvalue="JUnit.DodgemsTest.canVisitAttraction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DodgemsTest.canVisitAttraction" />
         <item itemvalue="JUnit.TobaccoStallTest.canVisitStall" />
         <item itemvalue="JUnit.IceCreamStallTest" />
         <item itemvalue="JUnit.TobaccoStallTest" />
         <item itemvalue="JUnit.DodgemsTest.hasName" />
-        <item itemvalue="JUnit.RollercoasterTest.hasName" />
       </list>
     </recent_temporary>
   </component>
@@ -612,12 +630,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VisitorTest_hasAge - 2018.07.02 at 15h 48m 48s.xml">
-      <configuration name="VisitorTest.hasAge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest - 2018.07.02 at 15h 49m 49s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VisitorTest_hasMoney - 2018.07.02 at 15h 50m 04s.xml">
       <configuration name="VisitorTest.hasMoney" configurationId="JUnit" />
     </history-entry>
@@ -635,6 +647,18 @@
     </history-entry>
     <history-entry file="IceCreamStallTest - 2018.07.02 at 16h 11m 26s.xml">
       <configuration name="IceCreamStallTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TobaccoStallTest_canVisitStall - 2018.07.02 at 16h 49m 49s.xml">
+      <configuration name="TobaccoStallTest.canVisitStall" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TobaccoStallTest_canVisitStall - 2018.07.02 at 16h 50m 12s.xml">
+      <configuration name="TobaccoStallTest.canVisitStall" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TobaccoStallTest_canVisitStall - 2018.07.02 at 16h 50m 27s.xml">
+      <configuration name="TobaccoStallTest.canVisitStall" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TobaccoStallTest_canVisitStall - 2018.07.02 at 16h 50m 53s.xml">
+      <configuration name="TobaccoStallTest.canVisitStall" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -654,7 +678,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3048276" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" order="3" weight="0.32941177" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -678,7 +702,7 @@
       <window_info anchor="bottom" id="Run" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -689,7 +713,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3048276" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3048276" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -736,20 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DodgemsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,17 +902,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dodgems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ISecurity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TobaccoStallTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,20 +940,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TobaccoStallTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dodgems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="209">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DodgemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
             <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
           </folding>
         </state>
       </provider>
