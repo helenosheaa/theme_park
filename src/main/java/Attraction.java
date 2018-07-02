@@ -1,4 +1,4 @@
-public abstract class Attraction {
+public abstract class Attraction implements IReviewed{
 
     private String name;
     private int rating;
@@ -11,5 +11,9 @@ public abstract class Attraction {
 
     public String getName(){
         return this.name;
+    }
+
+    public int getRating(){
+        return this.rating;
     }
 }

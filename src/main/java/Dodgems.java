@@ -7,5 +7,6 @@ public class Dodgems extends Attraction implements ISecurity {
     public boolean isAllowedToVisit(Visitor visitor) {
         return visitor.getAge() <= 15;
     }
+
 }
 

@@ -34,4 +34,8 @@ public class TobaccoStallTest {
         assertEquals(true, tobaccoStall.isAllowedToVisit(visitor1));
     }
 
+    @Test
+    public void hasRating(){
+        assertEquals(2, tobaccoStall.getRating());
+    }
 }

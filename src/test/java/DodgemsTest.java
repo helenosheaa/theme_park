@@ -23,4 +23,9 @@ public class DodgemsTest {
     public void canVisitAttraction(){
         assertEquals(true, dodgems.isAllowedToVisit(visitor1));
     }
+
+    @Test
+    public void hasRating(){
+        assertEquals(10, dodgems.getRating());
+    }
 }

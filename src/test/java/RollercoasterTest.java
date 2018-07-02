@@ -30,4 +30,9 @@ public class RollercoasterTest {
     public void cannotRide(){
         assertEquals(false, rollercoaster.isAllowedToVisit(visitor2));
     }
+
+    @Test
+    public void hasRating(){
+        assertEquals(9, rollercoaster.getRating());
+    }
 }
