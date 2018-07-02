@@ -1,7 +1,7 @@
 public interface ITicketed {
 
-    public double defaultPrice(double price);
+    public double defaultPrice();
 
-    public double priceFor(Visitor data);
+    public double priceFor(Visitor visitor);
 
 }

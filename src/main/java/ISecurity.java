@@ -1,4 +1,4 @@
 public interface ISecurity {
 
-    public boolean isAllowedTo(Visitor data);
+    public boolean isAllowedToVisit(Visitor visitor);
 }
