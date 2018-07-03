@@ -9,17 +9,12 @@ public class ThemeParkTest {
 
     @Before
     public void before(){
-        themePark = new ThemePark("CodeClan Wondahs");
+        themePark = new ThemePark("CodeClan Wondahs", 5);
     }
 
     @Test
     public void hasName(){
         assertEquals("CodeClan Wondahs", themePark.getName());
-    }
-
-    @Test
-    public void getAllReviewed(){
-        assertEquals(reviews, themePark.getReviews());
     }
 
 }
